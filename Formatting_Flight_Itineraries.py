@@ -4,7 +4,7 @@ def format_itineraries(itineraries):
         travelers_name, origin, destination = itinerary
         itinerary = f"Itinerary {idx}: {travelers_name} - From {origin} to {destination}"
         formatted_itineraries.append(itinerary)
-    return '\n'.join(formatted_itineraries)
+    return formatted_itineraries
 
 
 itineraries = [("Myron", "Texas", "Japan"), ("Daniela", "Texas", "South Korea")]
